@@ -112,6 +112,3 @@ db.users.updateOne({ email: "admin@example.com" }, { $set: { role: "admin" } })
 - `GET /api/orders/all` - Get all orders (admin)
 - `PUT /api/orders/:id/status` - Update status (admin)
 
-## License
-
-MIT License
