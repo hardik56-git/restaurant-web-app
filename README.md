@@ -8,7 +8,7 @@
 [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-emerald.svg?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-**A premium, modern restaurant web application built using the MERN stack featuring a dark and gold luxury aesthetic.**
+**A premium, modern restaurant web application built with the MERN stack featuring a luxury dark and gold aesthetic.**
 
 [Live Demo](#) • [Report Bug](#) • [Request Feature](#)
 
@@ -16,20 +16,20 @@
 
 ---
 
-## 🌟 मुख्य विशेषताएं (Features)
+## 🌟 Key Features
 
-*   🎨 **Premium UI/UX:** डार्क और गोल्ड लग्जरी थीम जो रेस्टोरेंट को एक प्रीमियम लुक देती है।
-*   📱 **Fully Responsive:** मोबाइल-फर्स्ट डिज़ाइन, जो हर स्क्रीन साइज पर परफेक्ट चलता है।
-*   🔐 **Secure JWT Authentication:** सुरक्षित लॉगिन, रजिस्ट्रेशन और प्रोटेक्टेड राउट्स।
-*   🛒 **Smart Shopping Cart:** `localStorage` के साथ परसिस्टेंट कार्ट (पेज रिफ्रेश होने पर भी आइटम सेव रहेंगे)।
-*   📦 **Smooth Order Management:** पूरा चेकआउट फ्लो और ऑर्डर ट्रैकिंग सिस्टम।
-*   👨‍💼 **Powerful Admin Dashboard:** एडमिन के लिए फूड आइटम्स और ऑर्डर्स को मैनेज करने का पूरा कंट्रोल।
+*   🎨 **Premium UI/UX:** High-end dark and gold luxury theme designed for premium fine-dining aesthetics.
+*   📱 **Fully Responsive:** Mobile-first layout seamlessly adapts to smartphones, tablets, and desktops.
+*   🔐 **JWT Authentication:** Highly secure user registration, login, and robust route protection.
+*   🛒 **Smart Shopping Cart:** Persistent cart state using `localStorage` (keeps items saved even after page refreshes).
+*   📦 **Order Management:** Complete checkout flow and streamlined order tracking for customers.
+*   👨‍💼 **Admin Dashboard:** Full-featured back-office system to seamlessly manage food items and customer orders.
 
 ---
 
-## 🛠️ टेक स्टैक (Tech Stack)
+## 🛠️ Tech Stack
 
-| लेयर (Layer) | टेक्नोलॉजी (Technologies) |
+| Layer | Technologies Used |
 | :--- | :--- |
 | **Frontend** | React 18, Vite, Tailwind CSS, Framer Motion |
 | **Backend** | Node.js, Express.js |
@@ -39,9 +39,9 @@
 
 ---
 
-## 📸 स्क्रीनशॉट्स (Screenshots)
+## 📸 Screenshots
 
-> 💡 *आकर्षण बढ़ाने के लिए यहाँ अपने प्रोजेक्ट के स्क्रीनशॉट्स या GIF ज़रूर जोड़ें।*
+> 💡 *Tip: Replace these placeholder links with your actual project screenshots or working GIFs to instantly boost repository appeal!*
 
 | Home Page (Dark + Gold Theme) | Admin Dashboard |
 | --- | --- |
@@ -49,22 +49,22 @@
 
 ---
 
-## 📁 प्रोजेक्ट स्ट्रक्चर (Project Structure)
+## 📁 Project Structure
 
 ```text
 gourmet-palace/
 ├── client/              # React frontend (Vite)
 │   ├── src/
-│   │   ├── components/  # Reusable components
+│   │   ├── components/  # Reusable UI components
 │   │   ├── context/     # Global state management
 │   │   ├── pages/       # Page components (Home, Cart, Admin)
 │   │   ├── services/    # Axios / API services
 │   │   └── App.jsx      # Main application entry
 │   └── package.json
 ├── server/              # Express backend
-│   ├── config/          # Database connection
-│   ├── controllers/     # Business logic for routes
-│   ├── middleware/      # Auth & error handlers
+│   ├── config/          # Database connection setup
+│   ├── controllers/     # Business logic for API endpoints
+│   ├── middleware/      # Auth verification & error handlers
 │   ├── models/          # MongoDB Mongoose schemas
-│   └── routes/          # API endpoints
+│   └── routes/          # Express API routes
 └── README.md
