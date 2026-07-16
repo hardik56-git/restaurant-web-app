@@ -10,7 +10,6 @@
 
 **A premium, modern restaurant web application built with the MERN stack featuring a luxury dark and gold aesthetic.**
 
-[Live Demo](#) • [Report Bug](#) • [Request Feature](#)
 
 </div>
 
@@ -39,13 +38,7 @@
 
 ---
 
-## 📸 Screenshots
 
-> 💡 *Tip: Replace these placeholder links with your actual project screenshots or working GIFs to instantly boost repository appeal!*
-
-| Home Page (Dark + Gold Theme) | Admin Dashboard |
-| --- | --- |
-| `![Home Screen](https://via.placeholder.com/400x250?text=Premium+Home+UI)` | `![Dashboard](https://via.placeholder.com/400x250?text=Admin+Dashboard)` |
 
 ---
 
