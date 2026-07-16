@@ -1,114 +1,70 @@
-# Gourmet Palace - Restaurant Web Application
+# 👑 Gourmet Palace - Premium Restaurant Web Application
 
-A premium modern restaurant web application built with the MERN stack (MongoDB, Express, React, Node.js).
+<div align="center">
 
-## Features
+[![MERN Stack](https://img.shields.io/badge/MERN-Stack-MediumPurple.svg?style=for-the-badge&logo=react)](https://react.dev/)
+[![React 18](https://img.shields.io/badge/React-18-blue.svg?style=for-the-badge&logo=react)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg?style=for-the-badge&logo=node.js)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-emerald.svg?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-- 🍽️ **Modern UI/UX**: Dark + gold premium theme
-- 📱 **Fully Responsive**: Mobile-first design
-- 🔐 **JWT Authentication**: Secure login/register
-- 🛒 **Shopping Cart**: Persistent cart with localStorage
-- 📦 **Order Management**: Full checkout flow
-- 👨‍💼 **Admin Dashboard**: Manage foods and orders
+**A premium, modern restaurant web application built using the MERN stack featuring a dark and gold luxury aesthetic.**
 
-## Tech Stack
+[Live Demo](#) • [Report Bug](#) • [Request Feature](#)
 
-- **Frontend**: React 18, Vite, Tailwind CSS, Framer Motion
-- **Backend**: Node.js, Express
-- **Database**: MongoDB with Mongoose
-- **Authentication**: JWT (JSON Web Tokens)
-- **State Management**: React Context API
+</div>
 
-## Project Structure
+---
 
-```
+## 🌟 मुख्य विशेषताएं (Features)
+
+*   🎨 **Premium UI/UX:** डार्क और गोल्ड लग्जरी थीम जो रेस्टोरेंट को एक प्रीमियम लुक देती है।
+*   📱 **Fully Responsive:** मोबाइल-फर्स्ट डिज़ाइन, जो हर स्क्रीन साइज पर परफेक्ट चलता है।
+*   🔐 **Secure JWT Authentication:** सुरक्षित लॉगिन, रजिस्ट्रेशन और प्रोटेक्टेड राउट्स।
+*   🛒 **Smart Shopping Cart:** `localStorage` के साथ परसिस्टेंट कार्ट (पेज रिफ्रेश होने पर भी आइटम सेव रहेंगे)।
+*   📦 **Smooth Order Management:** पूरा चेकआउट फ्लो और ऑर्डर ट्रैकिंग सिस्टम।
+*   👨‍💼 **Powerful Admin Dashboard:** एडमिन के लिए फूड आइटम्स और ऑर्डर्स को मैनेज करने का पूरा कंट्रोल।
+
+---
+
+## 🛠️ टेक स्टैक (Tech Stack)
+
+| लेयर (Layer) | टेक्नोलॉजी (Technologies) |
+| :--- | :--- |
+| **Frontend** | React 18, Vite, Tailwind CSS, Framer Motion |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB with Mongoose |
+| **Authentication** | JWT (JSON Web Tokens) |
+| **State Management** | React Context API |
+
+---
+
+## 📸 स्क्रीनशॉट्स (Screenshots)
+
+> 💡 *आकर्षण बढ़ाने के लिए यहाँ अपने प्रोजेक्ट के स्क्रीनशॉट्स या GIF ज़रूर जोड़ें।*
+
+| Home Page (Dark + Gold Theme) | Admin Dashboard |
+| --- | --- |
+| `![Home Screen](https://via.placeholder.com/400x250?text=Premium+Home+UI)` | `![Dashboard](https://via.placeholder.com/400x250?text=Admin+Dashboard)` |
+
+---
+
+## 📁 प्रोजेक्ट स्ट्रक्चर (Project Structure)
+
+```text
 gourmet-palace/
-├── client/                 # React frontend
+├── client/              # React frontend (Vite)
 │   ├── src/
-│   │   ├── components/   # Reusable components
-│   │   ├── context/    # Context providers
-│   │   ├── pages/     # Page components
-│   │   ├── services/  # API services
-│   │   └── App.jsx    # Main app
+│   │   ├── components/  # Reusable components
+│   │   ├── context/     # Global state management
+│   │   ├── pages/       # Page components (Home, Cart, Admin)
+│   │   ├── services/    # Axios / API services
+│   │   └── App.jsx      # Main application entry
 │   └── package.json
-├── server/               # Express backend
-│   ├── config/          # Database config
-│   ├── controllers/     # Route controllers
-│   ├── middleware/     # Auth & error middleware
-│   ├── models/         # Mongoose models
-│   └── routes/         # API routes
+├── server/              # Express backend
+│   ├── config/          # Database connection
+│   ├── controllers/     # Business logic for routes
+│   ├── middleware/      # Auth & error handlers
+│   ├── models/          # MongoDB Mongoose schemas
+│   └── routes/          # API endpoints
 └── README.md
-```
-
-## Setup Instructions
-
-### Prerequisites
-
-- Node.js 18+
-- MongoDB (local or Atlas)
-
-### Installation
-
-1. **Clone and install dependencies:**
-```bash
-# Install all dependencies
-npm run install-all
-```
-
-2. **Configure environment variables:**
-```bash
-# Server (.env)
-cp server/.env.example server/.env
-# Edit with your MongoDB URI and JWT secret
-```
-
-### Running the Application
-
-**Development mode (both server and client):**
-```bash
-npm run dev
-```
-
-**Individual modes:**
-```bash
-# Terminal 1 - Backend (port 5000)
-cd server && npm run dev
-
-# Terminal 2 - Frontend (port 3000)
-cd client && npm run dev
-```
-
-### Access
-
-- Frontend: http://localhost:3000
-- Backend API: http://localhost:5000/api
-
-## Default Admin Account
-
-After server startup, create an admin user via MongoDB:
-1. Register a new user at http://localhost:3000/login
-2. In MongoDB, update the user's role:
-```javascript
-db.users.updateOne({ email: "admin@example.com" }, { $set: { role: "admin" } })
-```
-
-## API Endpoints
-
-### Auth
-- `POST /api/auth/register` - Register user
-- `POST /api/auth/login` - Login user
-- `GET /api/auth/me` - Get current user (protected)
-
-### Foods
-- `GET /api/foods` - Get all foods
-- `GET /api/foods/:id` - Get food by ID
-- `POST /api/foods` - Create food (admin)
-- `PUT /api/foods/:id` - Update food (admin)
-- `DELETE /api/foods/:id` - Delete food (admin)
-
-### Orders
-- `POST /api/orders` - Create order (protected)
-- `GET /api/orders/my-orders` - Get user's orders (protected)
-- `GET /api/orders/all` - Get all orders (admin)
-- `PUT /api/orders/:id/status` - Update status (admin)
-
