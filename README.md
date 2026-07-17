@@ -1,4 +1,4 @@
-# 👑 Gourmet Palace
+# Gourmet Palace
 
 <div align="center">
 
@@ -14,7 +14,7 @@ A modern, full-stack restaurant web application built with the **MERN Stack**. I
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss)
 
-### 🚀 Live Demo
+###  Live Demo
 
 🔗 https://lnkd.in/gpu7i6Pj
 
@@ -27,7 +27,7 @@ A modern, full-stack restaurant web application built with the **MERN Stack**. I
 ## 🏠 Home Page
 
 <p align="center">
-<img src="./screenshots/home.png" width="100%">
+<img src="./screnshots/home.png" width="100%">
 </p>
 
 ---
@@ -191,21 +191,6 @@ npm run dev
 
 ---
 
-# 🌐 Local URLs
-
-Frontend
-
-```
-http://localhost:5173
-```
-
-Backend
-
-```
-http://localhost:5000
-```
-
----
 
 # 🔐 Authentication
 
@@ -301,9 +286,9 @@ This project is licensed under the **MIT License**.
 
 ## 👨‍💻 Developer
 
-### Hardik Kashyap
+### Hardik 
 
-Frontend Developer • MERN Stack Developer • Japanese Language Learner (JLPT N3)
+Frontend Developer • MERN Stack Developer • Japanese Language Learner (JLPT N2)
 
 ⭐ If you like this project, don't forget to star the repository.
 
