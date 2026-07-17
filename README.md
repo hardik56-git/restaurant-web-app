@@ -1,162 +1,310 @@
-Markdown
-# 👑 Gourmet Palace - Premium Restaurant Web Application
+# 👑 Gourmet Palace
 
 <div align="center">
 
-![MERN Stack](https://img.shields.io/badge/MERN-Stack-MediumPurple.svg?style=for-the-badge&logo=react)
-![React 18](https://img.shields.io/badge/React-18-blue.svg?style=for-the-badge&logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg?style=for-the-badge&logo=node.js)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-emerald.svg?style=for-the-badge&logo=mongodb)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC.svg?style=for-the-badge&logo=tailwind-css)
+# Premium MERN Stack Restaurant Web Application
 
-**A high-end, luxury-themed restaurant web application engineered with the MERN stack, delivering an elite fine-dining digital experience.**
+A modern, full-stack restaurant web application built with the **MERN Stack**. It offers a premium luxury dining experience with secure authentication, responsive design, online food ordering, shopping cart functionality, and a powerful admin dashboard.
 
-[Live Demo](:https://lnkd.in/gpu7i6Pj) • [Report Bug](https://github.com/gourmet-palace/issues) • [Request Feature](https://github.com/gourmet-palace/issues)
+<br>
+
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-Backend-000000?style=for-the-badge&logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss)
+
+### 🚀 Live Demo
+
+🔗 https://lnkd.in/gpu7i6Pj
 
 </div>
 
 ---
 
-## 🌟 Key Features
+# 📸 Screenshots
 
-*   🎨 **Premium UI/UX:** Stunning luxury dark and gold aesthetic crafted specifically for fine-dining presentation.
-*   📱 **100% Responsive:** Smooth mobile-first layout engineered to adapt flawlessly to smartphones, tablets, and desktops.
-*   🔐 **Secure Authentication:** Robust user registration and login pipelines utilizing JSON Web Tokens (JWT) and encrypted route guarding.
-*   🛒 **Smart Shopping Cart:** Highly persistent client-side cart management leveraging `localStorage` for uninterrupted user sessions.
-*   📦 **End-to-End Checkout:** Seamless ordering flow complete with real-time status updates and delivery logs.
-*   👨‍💼 **Executive Admin Panel:** Full-scale back-office control system to add, edit, or delete menu items and manage client orders instantly.
+## 🏠 Home Page
 
----
-
-## 🛠️ Tech Stack & Architecture
-
-### Frontend
-*   **Core:** React 18 & Vite (Blazing fast build speeds)
-*   **Styling:** Tailwind CSS (Custom Gold utility extensions)
-*   **Animations:** Framer Motion (Delightful, premium micro-interactions)
-*   **State Management:** React Context API
-
-### Backend & Database
-*   **Server Environment:** Node.js & Express.js
-*   **Database ODM:** MongoDB Atlas with Mongoose schemas
-*   **Security:** JWT (JSON Web Tokens) & bcrypt hashing
+<p align="center">
+<img src="./screenshots/home.png" width="100%">
+</p>
 
 ---
 
-## 📸 Previews & Visuals
+## 🍽️ Menu Page
 
-> 💡 *Note: You can replace these placeholder banners with your app's actual screenshots later if you deploy it.*
-
+<p align="center">
+<img src="./screenshots/menu.png" width="100%">
+</p>
 
 ---
 
-## 📁 System Architecture (Project Structure)
+# ✨ Features
+
+- 🎨 Premium Luxury Dark UI
+- 📱 Fully Responsive Design
+- 🔐 JWT Authentication
+- 👤 User Registration & Login
+- 🍽️ Restaurant Menu
+- 🔍 Food Search
+- 🏷️ Category Filters
+- 🛒 Shopping Cart
+- 📦 Order Management
+- 👨‍💼 Admin Dashboard
+- ✏️ CRUD Operations
+- ⚡ Fast React + Vite Performance
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- React 18
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Context API
+
+---
+
+## Backend
+
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+- JWT Authentication
+- bcrypt
+
+---
+
+# 📂 Project Structure
 
 ```text
-gourmet-palace/
-├── client/              # React Frontend Client (Vite)
-│   ├── src/
-│   │   ├── components/  # Reusable Atomic UI Components
-│   │   ├── context/     # Global App State Infrastructure
-│   │   ├── pages/       # Layout Views (Home, Cart, Admin Panel)
-│   │   ├── services/    # Modular Axios API Client Operations
-│   │   └── App.jsx      # Application Root Config
+gourmet-palace
+│
+├── client
+│   ├── public
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── context
+│   │   ├── hooks
+│   │   ├── pages
+│   │   ├── services
+│   │   ├── utils
+│   │   └── App.jsx
+│   │
 │   └── package.json
-├── server/              # Express Backend Server API
-│   ├── config/          # Database Drivers & Connection Config
-│   ├── controllers/     # Core Business & Route Handler Logic
-│   ├── middleware/      # Payload Verification & Global Error Catchers
-│   ├── models/          # Structured Mongoose Data Schemas
-│   └── routes/          # Clean Restful Endpoint Aggregators
+│
+├── server
+│   ├── config
+│   ├── controllers
+│   ├── middleware
+│   ├── models
+│   ├── routes
+│   ├── utils
+│   └── server.js
+│
 └── README.md
-🚀 Quick Start & Installation
-Prerequisites
-Node.js: Version 18.x or higher installed
+```
 
-Database: Active local MongoDB instance or a remote MongoDB Atlas connection URI
+---
 
-Installation Steps
-Clone the Project Repository:
+# 🚀 Installation
 
-Bash
-git clone [https://github.com/gourmet-palace.git](https://github.com/gourmet-palace.git)
+## Clone Repository
+
+```bash
+git clone https://github.com/yourusername/gourmet-palace.git
+
 cd gourmet-palace
-Install Comprehensive Dependencies:
+```
 
-Bash
-npm run install-all
-Configure Environment Variables:
-Create a dedicated .env file within your server directory:
+---
 
-Bash
-cp server/.env.example server/.env
-Open the newly created server/.env file and input your environment configurations:
+## Install Dependencies
 
-Code snippet
+```bash
+npm install
+```
+
+### Client
+
+```bash
+cd client
+
+npm install
+```
+
+### Server
+
+```bash
+cd server
+
+npm install
+```
+
+---
+
+# ⚙ Environment Variables
+
+Create a `.env` file inside the **server** folder.
+
+```env
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/gourmet-palace
-JWT_SECRET=super_secret_gourmet_palace_key_12345
-Running the Application
-Execute Both Client & Server Concurrently (Recommended):
 
-Bash
+MONGO_URI=your_mongodb_connection
+
+JWT_SECRET=your_secret_key
+```
+
+---
+
+# ▶ Run Project
+
+### Run Client & Server Together
+
+```bash
 npm run dev
-Running Components in Separate Terminal Tabs:
+```
 
-Backend Engine (Port 5000):
+### Run Separately
 
-Bash
-cd server && npm run dev
-Frontend Sandbox (Port 3000):
+Backend
 
-Bash
-cd client && npm run dev
-Local Network Access Links
-Client Portal: http://localhost:3000
+```bash
+cd server
 
-API Server: http://localhost:5000/api
+npm run dev
+```
 
-👨‍💼 Elevating to Administrative Privileges
-To easily bootstrap a fully functioning Admin account on your system:
+Frontend
 
-Fire up the client, go to the registration page, and register a baseline standard user account with email admin@example.com.
+```bash
+cd client
 
-Launch your favorite database viewer (MongoDB Compass or Atlas Web UI) and locate the newly created user record.
+npm run dev
+```
 
-Update the role key to flag it as "admin" by running this query:
+---
 
-JavaScript
-db.users.updateOne({ email: "admin@example.com" }, { $set: { role: "admin" } })
-🔗 Clean RESTful API Endpoints Reference
-🔐 Authentication Operations
-POST /api/auth/register - Registers a brand new user profile.
+# 🌐 Local URLs
 
-POST /api/auth/login - Authenticates user credentials & responds with a signed JWT.
+Frontend
 
-GET /api/auth/me - Retouches authenticated user payload metadata (Protected).
+```
+http://localhost:5173
+```
 
-🍽️ Culinary Menu Management
-GET /api/foods - Pulls down the complete active restaurant menu catalog.
+Backend
 
-GET /api/foods/:id - Targets and pulls specific single dish information.
+```
+http://localhost:5000
+```
 
-POST /api/foods - Spawns a brand new dish onto the live menu list (Admin Only).
+---
 
-PUT /api/foods/:id - Edits pricing, titles, or descriptions of existing menu objects (Admin Only).
+# 🔐 Authentication
 
-DELETE /api/foods/:id - Purges a dish permanently from the system registry (Admin Only).
+| Method | Endpoint |
+|---------|----------|
+| POST | /api/auth/register |
+| POST | /api/auth/login |
+| GET | /api/auth/me |
 
-📦 Order Operations Flow
-POST /api/orders - Initializes checkout mechanics and generates an active order invoice (Protected).
+---
 
-GET /api/orders/my-orders - Returns chronological historical receipts for the logged-in client (Protected).
+# 🍽 Menu API
 
-GET /api/orders/all - Exposes the entire corporate ordering backlog (Admin Only).
+| Method | Endpoint |
+|---------|----------|
+| GET | /api/foods |
+| GET | /api/foods/:id |
+| POST | /api/foods |
+| PUT | /api/foods/:id |
+| DELETE | /api/foods/:id |
 
-PUT /api/orders/:id/status - Switches status updates (e.g., Preparing, Dispatched, Fulfilled) (Admin Only).
+---
 
-📄 License
-Distributed safely under the protective guidelines of the MIT License. Review the LICENSE file packaged within this repo for extensive data rights information.
+# 📦 Order API
 
-📬 Open Collaboration & Support
-Have feedback, questions, or cool feature requests? Connect via GitHub Repository issues or submit a pull request directly to the project maintainers.
+| Method | Endpoint |
+|---------|----------|
+| POST | /api/orders |
+| GET | /api/orders/my-orders |
+| GET | /api/orders/all |
+| PUT | /api/orders/:id/status |
+
+---
+
+# 👨‍💼 Admin Dashboard
+
+Admin can
+
+- Add Food
+- Edit Food
+- Delete Food
+- Manage Orders
+- Update Order Status
+- View Users
+- Manage Restaurant Menu
+
+---
+
+# 🔮 Future Improvements
+
+- 💳 Stripe Payment Gateway
+- 💳 Razorpay Integration
+- 📧 Email Notifications
+- 🔔 Push Notifications
+- ⭐ Customer Reviews
+- ❤️ Wishlist
+- 📍 Google Maps Integration
+- ☁ Cloudinary Image Upload
+- 📊 Analytics Dashboard
+- 🌙 Dark / Light Mode
+
+---
+
+# 📱 Responsive Design
+
+Supports
+
+- 💻 Desktop
+- 💻 Laptop
+- 📱 Tablet
+- 📱 Mobile
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# 🙌 Acknowledgements
+
+- React
+- Vite
+- Express.js
+- MongoDB
+- Tailwind CSS
+- Framer Motion
+
+---
+
+<div align="center">
+
+## 👨‍💻 Developer
+
+### Hardik Kashyap
+
+Frontend Developer • MERN Stack Developer • Japanese Language Learner (JLPT N3)
+
+⭐ If you like this project, don't forget to star the repository.
+
+</div>
