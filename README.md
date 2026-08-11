@@ -27,7 +27,7 @@ A modern, full-stack restaurant web application built with the **MERN Stack**. I
 ## 🏠 Home Page
 
 <p align="center">
-<img src="./screnshots/home.png" width="100%">
+<img src="./screnshots/home.jpg" width="100%">
 </p>
 
 ---
@@ -35,7 +35,7 @@ A modern, full-stack restaurant web application built with the **MERN Stack**. I
 ## 🍽️ Menu Page
 
 <p align="center">
-<img src="./screenshots/menu.png" width="100%">
+<img src="./screenshots/item.jpg" width="100%">
 </p>
 
 ---
