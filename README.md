@@ -290,6 +290,6 @@ This project is licensed under the **MIT License**.
 
 Frontend Developer • MERN Stack Developer • Japanese Language Learner (JLPT N2)
 
-⭐ If you like this project, don't forget to star the repository.
+ If you like this project, don't forget to star the repository.
 
 </div>
